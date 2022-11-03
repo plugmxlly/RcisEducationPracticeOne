@@ -66,5 +66,32 @@ for (int i = 0; i < 12, i++) {
     }
 print(month);
 
+    // Задание 5
+
+Map<String, double> temperature = {};
+  List months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
+  var temperature2 = List.generate(12, (i) => List.filled(30, 0), growable: true);
+  List monthMid = [];
+  int sum = 0;
+
+  for(int i = 0; i < 12; i++) {
+    for(int j = 0; j < 30; j++) {
+      var random = new Random();
+      int a = random.nextInt(50) - 30;
+      temperature2[i][j] += a;
+    }
+  }
+  for(int i = 0; i < 12; i++) {
+    for(int j = 0; j < 30; j++) {
+      sum += temperature2[i][j];
+    }
+    double mid = sum % 30;
+    monthMid.add(mid);
+  }
+
+  for(int i = 0; i < 12; i++) {
+    temperature[months[i]] = monthMid[i];
+  }
+  print(temperature);
 }
 
