@@ -49,7 +49,7 @@ var temperature = List.generate(12, (i) => List.filled(30, 0), growable: true);
 List month = [];
 double sum = 0;
 
-for (int i = 0; i < 12, i++) {
+for (int i = 0; i < 12; i++) {
     for (int j = 0; j < 30; j++) {
         var random = new  Random();
         int a = random.nextInt(60) - 30;
@@ -57,7 +57,7 @@ for (int i = 0; i < 12, i++) {
 
     }
 }
-for (int i = 0; i < 12, i++) {
+for (int i = 0; i < 12; i++) {
     for (int j = 0; j < 30; j++) {
         sum += temperature[i][j];
     }
