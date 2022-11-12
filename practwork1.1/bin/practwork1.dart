@@ -6,8 +6,7 @@ void main() {
 // Задание 1
 
 // int minNumber = 999;          
-
-// int numbers;
+// int numbers = 0;
 
 // List<int> randomNums = [];
  
@@ -28,6 +27,7 @@ void main() {
 
 // Задание 2
 
+// try {
 // double sum = 0;
 // double multiply = 1;
 // double count = 0;
@@ -45,6 +45,10 @@ void main() {
 //   print("сумма - ${sum}");
 //   print("Произведение - ${multiply}");
 //   print("Среднее - ${sum / count}");
+// } 
+// catch(e){
+//   print("Введено неверное значение");
+// }
 
 // Задание 3
 
@@ -74,6 +78,7 @@ void main() {
 
 // Задание 4
 
+// try {
 // List <int> nums = [];
 
 // print ("Введите начало диапазона ");
@@ -90,6 +95,10 @@ void main() {
 // for (int i = 0; i < nums.length; i++) {
 //   stdout.write("${nums[i]} ");
 //  }
+// }
+// catch(e) {
+//   print("Введено неверное значение");
+// }
 
 // Задание 5
 
