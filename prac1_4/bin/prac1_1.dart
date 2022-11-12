@@ -4,13 +4,17 @@
   
   // Задание 1
 
-  // int n = int.parse(stdin.readLineSync()!);
-  // int a = 1;
-  // for (int i = 3; i <= n; i += 3) {
-  //   a *= i;
-  // }
-  // print(a);
-
+// try{ 
+//   int n = int.parse(stdin.readLineSync()!);
+//   int a = 1;
+//   for (int i = 3; i <= n; i += 3) {
+//     a *= i;
+//   }
+//   print(a);
+// }
+// catch(e) {
+//   print("Введено неверное значение");
+// }
   
   // Задание 2
   
@@ -73,32 +77,42 @@
 
 // Задание 5
 
-   // print("Введите X");
-  // int x = int.parse(stdin.readLineSync()!);
-  // print("Введите Y");
-  // int y = int.parse(stdin.readLineSync()!);
+// try {
+//   print("Введите X");
+//   int x = int.parse(stdin.readLineSync()!);
+//   print("Введите Y");
+//   int y = int.parse(stdin.readLineSync()!);
 
-  // if (x > -1 && x < 3) {
-  //   if (y > -2 && y < 4) {
-  //     print("Точка принадлежит координатам a, b");
-  //   } else {
-  //     print("Точка не принадлежит координатам a, b");
-  //   }
-  // } else {
-  //   print("Точка не принадлежит координатам a, b");
-  // }
+//   if (x > -1 && x < 3) {
+//     if (y > -2 && y < 4) {
+//       print("Точка принадлежит координатам a, b");
+//     } else {
+//       print("Точка не принадлежит координатам a, b");
+//     }
+//   } else {
+//     print("Точка не принадлежит координатам a, b");
+//   }
+// }
+// catch(e) {
+//   print("Введено неверное значение");
+// }
 
   // Задание 6
 
-  // print("Введите координату X: ");
-  // int a = int.parse(stdin.readLineSync()!);
-  // print("Введите координату Y: ");
-  // int b = int.parse(stdin.readLineSync()!);
+// try {
+//   print("Введите координату X: ");
+//   int a = int.parse(stdin.readLineSync()!);
+//   print("Введите координату Y: ");
+//   int b = int.parse(stdin.readLineSync()!);
 
-  // if ((a == 0 && (b <= 2 && b >= -3)) || (a == 1 && (b <= 0 && b >= -3)) || (a == 2 && b == -3) || (a == -1 && (b <= 0 && b >= -3)) || (a == -2 && b == -3)) {
-  //   print("Точка принадлежит заштрихованной обл-ти.");
-  // }
-  // else {
-  //  print("Точка не принадлежит заштрихованной обл-ти.");
-  // }
+//   if ((a == 0 && (b <= 2 && b >= -3)) || (a == 1 && (b <= 0 && b >= -3)) || (a == 2 && b == -3) || (a == -1 && (b <= 0 && b >= -3)) || (a == -2 && b == -3)) {
+//     print("Точка принадлежит заштрихованной обл-ти.");
+//   }
+//   else {
+//    print("Точка не принадлежит заштрихованной обл-ти.");
+//   }
+// }
+// catch(e) {
+//   print("Введено неверное значение");
+// }
 }
