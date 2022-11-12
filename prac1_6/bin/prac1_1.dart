@@ -30,64 +30,76 @@ void main() {
   
   // Задание 3
 
-  // print("Введите число");
-  // int n = int.parse(stdin.readLineSync()!);
-  // if (n != 0 && n % 10 == 0) {
-  //   print("Число четное и кратно 10");
-  // } else {
-  //   print("Число не удовлетворяет условиям");
-  // }
-
+// try{
+//   print("Введите число");
+//   int n = int.parse(stdin.readLineSync()!);
+//   if (n != 0 && n % 10 == 0) {
+//     print("Число четное и кратно 10");
+//   } else {
+//     print("Число не удовлетворяет условиям");
+//   }
+// }
+// catch(e) {
+//   print("Введено неверное значение");
+// }
   // Задание 4
 
-  // int n = 1;
-  // int sum = 0;
-  // print("Введите число");
-  // int a = int.parse(stdin.readLineSync()!);
-  // while (n > 0) {
-  //   n = int.parse(stdin.readLineSync()!);
-  //   if (n % a == 0) {
-  //     sum += n;
-  //   }
-  // }
-  // print(sum);
-
+// try{
+//   int n = 1;
+//   int sum = 0;
+//   print("Введите число");
+//   int a = int.parse(stdin.readLineSync()!);
+//   while (n > 0) {
+//     n = int.parse(stdin.readLineSync()!);
+//     if (n % a == 0) {
+//       sum += n;
+//     }
+//   }
+//   print(sum);
+// }
+// catch(e) {
+//   print("Введено неверное значение");
+// }
+ 
   // Задание 5
+// try{
+//   int n = int.parse(stdin.readLineSync()!);
+//   int m = int.parse(stdin.readLineSync()!);
 
-  // int n = int.parse(stdin.readLineSync()!);
-  // int m = int.parse(stdin.readLineSync()!);
+//   Random random = new Random();
+//   List<List<int>> matrix = [];
 
-  // Random random = new Random();
-  // List<List<int>> matrix = [];
+//   for (int i = 0; i < n; i++) {
+//     matrix.add([]);
+//     for (int j = 0; j < m; j++) {
+//       matrix[i].add(random.nextInt(2));
+//     }
+//   }
 
-  // for (int i = 0; i < n; i++) {
-  //   matrix.add([]);
-  //   for (int j = 0; j < m; j++) {
-  //     matrix[i].add(random.nextInt(2));
-  //   }
-  // }
+//   for (int i = 0; i < n; i++) {
+//     int temp = 0;
+//     for (int j = 0; j < m; j++) {
+//       if (matrix[i][j] == 1) {
+//         temp++;
+//       }
+//     }
+//     if (temp % 2 == 0) {
+//       matrix[i].add(0);
+//     } else {
+//       matrix[i].add(1);
+//     }
+//   }
 
-  // for (int i = 0; i < n; i++) {
-  //   int temp = 0;
-  //   for (int j = 0; j < m; j++) {
-  //     if (matrix[i][j] == 1) {
-  //       temp++;
-  //     }
-  //   }
-  //   if (temp % 2 == 0) {
-  //     matrix[i].add(0);
-  //   } else {
-  //     matrix[i].add(1);
-  //   }
-  // }
-
-  // for (int i = 0; i < n; i++) {
-  //   for (int j = 0; j < matrix[i].length; j++) {
-  //     stdout.write("${matrix[i][j]} ");
-  //   }
-  //   print("");
-  // }
-
+//   for (int i = 0; i < n; i++) {
+//     for (int j = 0; j < matrix[i].length; j++) {
+//       stdout.write("${matrix[i][j]} ");
+//     }
+//     print("");
+//   }
+// }
+// catch(e) {
+//   print("Введено неверное значение");
+// }
   // Задание 6
 
   // Random random = new Random();
