@@ -5,7 +5,7 @@ import 'dart:io';
 void main() {
 // Задание 1
 
-// int minNumber = 999;          
+// int minNumber = 105;          
 // int numbers = 0;
 
 // List<int> randomNums = [];
