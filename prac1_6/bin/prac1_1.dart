@@ -23,7 +23,13 @@ void main() {
   // Задание 2
   
   
+//   var numsTask2 = File('words2.txt');
+//   var text = numsTask2.readAsLinesSync();
   
+//   for (int i = 0; i < text.length; i++)
+//   {
+//     stdout.write('${text[i]} ');
+//   }
   
   
   
